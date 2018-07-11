@@ -51,18 +51,34 @@ print(math.exp(5)) #E^5
 
 #Tue Jul 10 06:09:44 IST 2018
 
-print(math.fabs(-10.2))
+print("abs:",math.fabs(-10.2))  #10.2
 
-print(math.factorial(4))
+print(math.factorial(4)) #24
 '''
 floor(...)
         floor(x)
         
         Return the floor of x as an Integral.
         This is the largest integer <= x.
+        
 
 
 '''
 print(math.floor(10.2))#10
 print(math.floor(10.9))#10
-print(math.floor(-10.2))#11
+print(math.floor(-10.2))#-11
+
+'''
+fmod(x,y) is different from % operator  refer pyhton documentation .
+
+% operator takes the denominator sign
+
+fmod and % maynot give the same result 
+
+fmod is prefered for floating numbers
+'''
+print(math.fmod(-10.2,2)) #-0.1999999999999993
+
+print(-10.2%2) #1.8000000000000007
+
+print(math.gcd(10,3)) #returns
