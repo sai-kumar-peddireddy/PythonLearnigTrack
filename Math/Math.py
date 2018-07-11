@@ -35,7 +35,7 @@ print(math.ceil(-10.1)) #-10
         
         On platforms that support signed zeros, copysign(1.0, -0.0)
         returns -1.0.
-        it simply copies sign of the another number 
+        it simply copies sign of the another number and returns float value
 '''
 
 print(math.copysign(10.5,1))
@@ -46,4 +46,23 @@ exp(x, /)
         value of exponent is e = 2.718
 '''
 
-print(math.exp(5))
+print(math.exp(5)) #E^5
+
+
+#Tue Jul 10 06:09:44 IST 2018
+
+print(math.fabs(-10.2))
+
+print(math.factorial(4))
+'''
+floor(...)
+        floor(x)
+        
+        Return the floor of x as an Integral.
+        This is the largest integer <= x.
+
+
+'''
+print(math.floor(10.2))#10
+print(math.floor(10.9))#10
+print(math.floor(-10.2))#11
