@@ -19,6 +19,10 @@ print('2/3 = ',2/3)
 print('modulus')
 print('2%3 = ',2%3)
 
+print(5/2) #2.5 with floating point
+print(5//2) #2 without floating point we use '//'
+
+
 '''
 ceil(x, /)
         Return the ceiling of x as an Integral.
@@ -81,4 +85,4 @@ print(math.fmod(-10.2,2)) #-0.1999999999999993
 
 print(-10.2%2) #1.8000000000000007
 
-print(math.gcd(10,3)) #returns
+print(math.gcd(10,3)) #returns gcd of a number
