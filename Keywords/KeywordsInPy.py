@@ -1,4 +1,4 @@
-'''
+"""
 Sat Jul 14 06:13:15 IST 2018
 source: https://www.geeksforgeeks.org/keywords-python-set-1/
 
@@ -7,7 +7,7 @@ keyword module has mainly to functions
 1.kwlist :-kwlist will return the list of keywords in Python.
 2.iskeyword:-iskeyword will tell given string is keyword or not by returning bool value.
 
-'''
+"""
 
 import keyword
 

@@ -56,5 +56,12 @@ for i in range(5):
     i = 10  # this line will not be effected because i value is overwritten with index range
     print(i)
 
+for u in range(5):
+    print(u)
+    i = 10  # this line will not be effected because i value is overwritten with index range
+    print(u)
+
+print("u:", u)
+
 
 

@@ -1,7 +1,9 @@
+
+"""
 #09/07/2018
-'''
 Math related functions in python
-'''
+"""
+
 import math
 
 print('addition')
