@@ -69,3 +69,30 @@ print(re.split("\W", "hey What's up dude!!!"))  # this will print splited string
 
 print(re.split("\W+", "hey What's up dude!!!"))  # this will print splited string which is based on all non alphanumeric
 
+print("---------------------------")
+"""
+sub(pattern, replace_with, string,count = 0, flags = 0)
+finds the given pattern in given string replace with given string.
+count variable is used how many times we need to replace in given string 
+flags for ignore case 
+"""
+
+print(re.sub("july", '07', "today's date is 21/July/2018", flags=re.IGNORECASE))
+
+print(re.sub("July", '07', "today's date is 21/July/2018"))
+
+print(re.sub("da", 'DA', "today's date is 21/July/2018"))
+
+print(re.sub("da", 'DA', "today's date is 21/July/2018", count=1))
+print("---------------------------")
+"""
+subn()
+Syntax: re.subn(pattern, repl, string, count=0, flags=0)
+It returns a tuple with count of total of replacement and the new string rather than just the string. 
+"""
+t = re.subn("da", 'DA', "today's date is 21/July/2018")
+print(t[0])
+print(t[1])
+print(t)
+
+
