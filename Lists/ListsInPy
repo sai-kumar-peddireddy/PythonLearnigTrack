@@ -1,0 +1,29 @@
+"""
+Sun Jul 22 16:03:27 IST 2018
+source :- http://www.bogotobogo.com/python/python_lists.php
+List :-
+    Lists are ordered collections
+    we can store any type of values (objects)
+    lists are not fixed size it can extended dynamically
+    lists values are changeable (mutable)
+    list is enclosed in square brackets []
+    lists supports all sequence operations that string supports but result also a list
+"""
+L1 = [243, 20.4, "sai kumar", "Peddireddy"]  # list contains integer float string
+
+print(L1)
+print("---------------------------------")
+print("L1[0]:", L1[0])  # accessing list
+print("L1[-2]:", L1[-2])  # accessing list
+print("L1[:-1]:", L1[:-1])  # prints before last item
+print("L1[0:2]", L1[0:2])  # prints 0,1 indexes
+print("L1[:]:", L1[:])  # prints all elements in list
+print("---------------------------------")
+print("printing in loop")
+for i in L1:
+    print(i)
+print("---------------------------------")
+for i in range(len(L1)):
+    print(L1[i])
+print("---------------------------------")
+print("L1[2][4:]", L1[2][4:])  # Accessing a word from string that is in list
